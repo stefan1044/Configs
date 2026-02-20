@@ -87,13 +87,21 @@ nnoremap <C-k> <C-w>k
 
 nnoremap <leader>sv :action SplitVertically<CR>
 nnoremap <leader>sh :action SplitHorizontally<CR>
-nnoremap <C-Left>  :action StretchSplitToLeft<CR>
-nnoremap <C-Right> :action StretchSplitToRight<CR>
-nnoremap <C-Up>    :action StretchSplitToTop<CR>
-nnoremap <C-Down>  :action StretchSplitToBottom<CR>
-
+nmap <leader>mr :action MoveEditorToOppositeTabGroup<CR> " Move tab to the other split group
+nmap <leader>sr :action MoveTabRight<CR> " Split right and move tab there
+nmap <leader>sd :action MoveTabDown<CR> " Split down and move tab there
+nmap <leader>su :action Unsplit<CR> " Unsplit (merge back)
 nnoremap <leader><Tab> :action GoToLastTab<CR>
-nnoremap <C-o> :action Back<CR>
-nnoremap <C-i> :action Forward<CR>
+nnoremap <C-i> :action Back<CR>
+nnoremap <C-o> :action Forward<CR>
 nnoremap <leader>fr :action RecentFiles<CR>
 nnoremap <leader>e :action ActivateProjectToolWindow<CR>
+
+nnoremap <leader>ms :action MoveEditorToOppositeTabGroup<CR>
+
+nnoremap K :action QuickJavaDoc<CR>
+nnoremap <leader>cp :action ParameterInfo<CR>
+nnoremap <leader>ct :action ExpressionTypeInfo<CR>
+nnoremap <leader>ci :action QuickImplementations<CR>
+nnoremap <leader>n :action NewElementSamePlace<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
