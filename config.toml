@@ -1,7 +1,7 @@
 theme = "seoul256-dark"
 
 [editor]
-scrolloff = 20
+scrolloff = 5
 line-number = "relative"
 cursorline = true
 idle-timeout = 150
@@ -36,7 +36,7 @@ after-delay.enable = false
 after-delay.timeout = 2000
 
 [editor.whitespace.render]
-space = "none"
+space = "all"
 tab = "all"
 nbsp = "all"
 nnbsp = "all"
@@ -48,7 +48,7 @@ nbsp = "⍽"
 nnbsp = "␣"
 tab = "→"
 newline = "⏎"
-tabpad = "·"
+tabpad = "─"
 
 [editor.indent-guides]
 render = true
@@ -57,4 +57,3 @@ character = "┆"
 [editor.inline-diagnostics]
 cursor-line = "warning"
 other-lines = "error"
-
