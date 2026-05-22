@@ -66,6 +66,13 @@ other-lines = "disable"
 [editor.file-picker]
 hidden = false
 git-ignore = true
+ignore = true
+git-ignore = true
+git-global = true
+git-exclude = true
+follow-symlinks = true
+deduplicate-links = true
+max-depth = 25
 
 [editor.soft-wrap]
 enable = true
