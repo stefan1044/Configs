@@ -67,7 +67,6 @@ other-lines = "disable"
 hidden = false
 git-ignore = true
 ignore = true
-git-ignore = true
 git-global = true
 git-exclude = true
 follow-symlinks = true
